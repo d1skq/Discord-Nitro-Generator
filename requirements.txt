@@ -1,0 +1,8 @@
+Requirements:
+subprocess
+sys
+random
+string
+time
+os
+requests
