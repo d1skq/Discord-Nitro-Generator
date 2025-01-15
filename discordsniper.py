@@ -55,7 +55,6 @@ def run_code_generator():
 
     print_loading_animation(2)
 
-    # Crear carpeta 'results' si no existe
     if not os.path.exists('results'):
         os.makedirs('results')
 
