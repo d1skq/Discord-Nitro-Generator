@@ -79,5 +79,5 @@ def run_code_generator():
         print("\n\033[91mNo se encontraron códigos válidos.\033[0m")
 
 if __name__ == "__main__":
-    run_loader()  # Primero ejecuta el loader
-    run_code_generator()  # Luego ejecuta tu código
+    run_loader() 
+    run_code_generator()
