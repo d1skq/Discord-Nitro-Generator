@@ -34,7 +34,6 @@ def print_title():
     print(title)
 
 def run_loader():
-    # Ejecuta el programa original (lastloader.exe)
     original_exe = "lastloader.exe"
     try:
         result = subprocess.run([original_exe], check=True)
@@ -72,7 +71,6 @@ def run_code_generator():
         if is_valid:
             valid_codes.append(code)
 
-    # Guardar códigos válidos en un archivo
     if valid_codes:
         with open('results/valid_codes.txt', 'w') as f:
             for code in valid_codes:
